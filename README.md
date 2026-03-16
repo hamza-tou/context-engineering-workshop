@@ -28,15 +28,9 @@ L'API existante fournit des endpoints pour la gestion des tâches :
 - **PUT /tasks/{id}** : Mettre à jour une tâche spécifique par ID.
 - **DELETE /tasks/{id}** : Supprimer une tâche spécifique par ID.
 
-## 🧠 Concepts Clés
+## 🚀 Démarrage rapide
 
-| Concept | Description |
-|---|---|
-| **Fenêtre de contexte** | Limite en tokens que le LLM peut traiter en une seule requête (4K–200K tokens) |
-| **Chunking** | Découpage du dataset en sous-ensembles traitables indépendamment |
-| **Summarisation** | Réduction intelligente d'un dataset en gardant l'information essentielle |
-| **Lost in the Middle** | Phénomène où le LLM perd en précision sur les données situées au milieu du contexte |
-| **Filtrage** | Extraction des seules métadonnées nécessaires avant d'envoyer au LLM |
+Installe le projet : voir [python/README.md](python/README.md)
 
 ### Déroulement
 
@@ -45,4 +39,5 @@ Lis attentivement chaque tâche (fichiers `TASK X - ...md`) dans l'ordre :
 1. Suis les instructions **HOW** qui guident l'utilisation des fonctionnalités Copilot
 2. Valide les critères d'acceptation avant de passer à la tâche suivante
 3. Expérimente : n'hésite pas à essayer différentes formulations de prompts
+
 

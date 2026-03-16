@@ -5,7 +5,8 @@
 The `task_flow_api` project is organized into a three-layer architecture consisting of the following directories:
 ```
 task_flow_api/
-├── api.py          # API layer with routes for handling HTTP requests
+├── main.py         # Entry point, FastAPI app instantiation
+├── controller.py   # API layer with routes for handling HTTP requests
 ├── service.py      # Business logic layer interacting with repository
 ├── repository.py   # Database interactions and CRUD operations
 ├── model.py        # Data models used in the application
